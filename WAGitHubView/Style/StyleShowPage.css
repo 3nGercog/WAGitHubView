@@ -1,0 +1,40 @@
+﻿div#container {
+    display: block;
+    position:absolute;
+    text-align:center;
+}
+div.repository {
+        display: inline-block;
+        width: 30%;
+        border: 1px solid #333;
+        vertical-align:top;
+        padding: 5px 5px;
+        margin: 5px;
+        color: chocolate;
+        text-align:left;
+}
+div.branch {
+        border: 1px solid #666;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+}
+div.commit {
+        border: 1px solid #999;
+        color: black;
+}
+
+ul.comlist li {
+    list-style-type:none;
+}
+ul.comlist li::before {
+    content: "- ";
+}
+
+a.link {
+    text-decoration:none;
+}
+
+/*div {
+    border: 1px solid #666;
+    padding: 5px 0;
+}*/
